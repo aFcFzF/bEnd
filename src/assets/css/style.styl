@@ -1,0 +1,98 @@
+@import './reset.styl'
+@import './font.styl'
+
+.clearfix
+    &:after
+        display table
+        content " "
+        clear both
+
+.text-center
+    text-align center
+
+
+[hide]
+    display none
+
+[flex-box]
+    display flex
+    &>[flex="1"]
+        flex 1
+
+
+.input-full
+    height 30px
+    width 100%
+    border 1px solid rgb(196,196,196,0.5)
+    border-radius 3px
+    padding 0 3px
+
+a
+    color #457eff
+
+.red
+    color red
+
+// 百家号标准间距
+.mr30
+    margin-right 30px
+
+[unselected]
+    user-select none
+[select]
+    user-select initial
+
+[limit]
+    position relative
+    &:after
+        position absolute
+        right 10px
+        top 0
+        bottom 0
+        height $height=30px
+        margin auto
+        content attr(limit)
+        line-height $height
+        color #ddd
+
+[pointer]
+    cursor pointer
+
+textarea
+    resize none
+
+.du-badge-count
+    box-shadow none
+
+.fade
+    &-enter
+    &-leave-active
+        opacity 0
+        transition all 1s ease
+    &-enter-active
+    &-leave
+        opacity 1
+
+.pagebox
+    border-radius 4px
+    background-color #fff
+    box-shadow 0 1px 4px 0 rgba(207, 207, 207, .5)
+    padding 34px 30px 40px 30px
+
+.pageshadow
+    transition box-shadow 0.3s ease-in-out
+
+    &:hover
+        box-shadow 0 0 30px 0 rgba(203, 203, 203, .5)
+
+.spin-icon-loading
+    color #457eff
+    animation ani-spin 1s linear infinite
+
+@keyframes ani-spin
+    from
+        transform rotate(0deg)
+    50%
+        transform rotate(180deg)
+    to
+        transform rotate(360deg)

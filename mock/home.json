@@ -1,0 +1,17 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "userInfo": {
+            "name": "userName",
+            "avatar": "http://www.ld12.com/upimg358/allimg/c150617/143452O0515030-31O50.jpg"
+        },
+        "menu": {
+            "pluginList": [{
+                "routerName": "example",
+                "name": "插件",
+                "avatar": ""
+            }]
+        }
+    }
+}

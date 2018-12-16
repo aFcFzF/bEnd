@@ -1,0 +1,30 @@
+/**
+ * @file 字体小图标样式
+ */
+
+@font-face {
+    font-family: "fonticon";
+    src: url("../fonts/icomoon.eot"); /* IE9 */
+    src: url("../fonts/icomoon.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/icomoon.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("../fonts/icomoon.svg#uxfonteditor") format("svg"); /* iOS 4.1- */
+}
+
+[class^="font-icon-"], [class*=" font-icon-"] {
+    font-family: "fonticon" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 30px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.font-icon-arrow:before {
+  content: "\e900";
+  color: #fff;
+  font-size: 24px;
+}
