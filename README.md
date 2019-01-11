@@ -57,7 +57,7 @@ bEnd是Vue 驱动的插件化B端服务方案，即插即用方式让B端平台�
 7. 享用 Vue + webpack 开发环境、本地开发mock支持、deploy部署、集成SDK(需支持第三方开发的业务)
 
 
-# [使用](https://bearfe.github.io/doc/guide/start.html#%E6%96%B9%E5%BC%8F%E4%BA%8C%EF%BC%9Agit-clone)
+## [使用](https://bearfe.github.io/doc/guide/start.html#%E6%96%B9%E5%BC%8F%E4%BA%8C%EF%BC%9Agit-clone)
 
 安装依赖
 ``` bash
@@ -83,10 +83,11 @@ npm run deploy host01
 npm run build --report
 ```
 
-### 文档部分
+## 文档部分
 
 - [主页](https://bearfe.github.io/doc/) - bEnd 介绍
 - [快速起步](https://bearfe.github.io/doc/guide) - bEnd 开发指南
-### LICENSE
----
+
+## LICENSE
+
 [MIT](https://github.com/ElemeFE/element/blob/dev/LICENSE)
